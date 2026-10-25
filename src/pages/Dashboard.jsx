@@ -1,2 +1,6 @@
-import PageTemplate from '@/components/shared/PageTemplate';
-export default function Dashboard() { return <PageTemplate page="Dashboard" />; }
+import React from 'react';
+import DashboardView from '@/components/dashboard/DashboardView';
+
+export default function Dashboard() {
+  return <DashboardView />;
+}
